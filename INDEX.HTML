@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="Logo/logo.png" type="image/x-icon">
+    <title>Focus Advisers</title>
+    <link rel="stylesheet" href="STYLE.CSS">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo-wrapper">
+             
+              <a href="#footer" data-after="Incio"> <img src="Logo/logo.png" alt="" class="logo"></a>
+          </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">ACERCA DE</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">SERVICIOS</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="" alt="">
+            </div>
+            <h1>Focus Advisers</h1>
+            <h2>Eficiencia fiscal, crecimiento seguro</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-skype"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-solid fa-rss"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Acerca de Focus</h2>
+            <p><span>Nuestro proposito</span> es ayudar a los clientes a cumplir con sus obligaciones fiscales de manera eficiente, a la vez que maximiza su situación fiscal dentro del marco legal establecido. Esto ayuda a los clientes a minimizar riesgos, maximizar beneficios y mantener el cumplimiento con las leyes fiscales aplicables. </p>
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos</h3>
+                    <ul>
+                        <li>
+                            <strong>Constitución</strong>
+                            2023-2024
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            (+ 595 981 188 037)
+                            (+ 595 986 397 970)
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            ynsfranagueroe@gmail.com
+                            paguero24@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.focusAdvisers.com.py
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Limpio, Paraguay
+                        </li>
+
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                Conocer más <i class="fa-solid fa-check"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills del Equipo</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Skills Técnico</h3>
+                    <div class="skill">
+                        <span>Excel</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span> DataSnipper</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PowerPoint</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Word</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PowerBI</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Skills Profesional</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>SERVICIOS</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Cumplimiento Tributario</h3>
+                    <div class="item izq">
+                        <h4>Impuesto al Valor Agregado </h4>
+                        <span class="casa">IVA</span>
+                        <span class="fecha"></span>
+                        <p>Ofrecemos asesoramiento experto en la estructuración de transacciones para minimizar la carga fiscal, preparación y presentación de declaraciones de IVA, y una revisión exhaustiva de facturas y registros para asegurar la correcta contabilización del IVA.
+                             <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Impuesto a la Renta Personal</h4>
+                        <span class="casa">IRP</span>
+                        <span class="fecha"></span>
+                        <p>Proveemos planificación fiscal personalizada, preparación y presentación de declaraciones de impuestos sobre la renta, y asesoramiento sobre deducciones fiscales disponibles.</p>
+                             <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Impuesto a la Renta Empresarial (Simple)</h4>
+                        <span class="casa">IRE (Simple)</span>
+                        <span class="fecha"></span>
+                        <p>Ofrecemos asesoramiento sobre la estructura empresarial óptima, preparación y presentación de declaraciones de impuestos, y cálculo de impuestos bajo el régimen del IRE SIMPLE. También brindamos apoyo en la gestión de registros contables y documentación, asegurando el cumplimiento con las regulaciones fiscales vigentes.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Gestiones y Otros</h3>
+                    <div class="item der">
+                        <h4>Gestiones en:</h4>
+                        <span class="casa">Servicios Públicos</span>
+                        <span class="fecha"></span>
+                        <p>Ofrecemos asesoramiento y asistencia en la tramitación de licencias, permisos y certificaciones necesarias para la operación empresarial. Además, gestionamos el pago de tasas y contribuciones, asegurando que las empresas cumplan con todas las normativas locales y nacionales.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Gestiones en:</h4>
+                        <span class="casa">Servicios Privados</span>
+                        <span class="fecha"></span>
+                        <p>Ofrecemos asesoramiento y gestión integral en la selección y contratación de proveedores privados, asegurando que se cumplan altos estándares de calidad y eficiencia.</p>
+                          <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Servicios de:</h4>
+                        <span class="casa"> Archivo y Backups</span>
+                        <span class="fecha"></span>
+                        <p>Ofrecemos soluciones de almacenamiento físico y digital, así como servicios de respaldo regular para asegurar que no se pierda ninguna información crítica. Nos encargamos de organizar y mantener archivos actualizados y bien catalogados, lo que facilita la recuperación rápida de documentos.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="IMG/Compromiso.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Compromiso</h3>
+                        <p>Lealtad y Confidencialidad</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="IMG/Comunicación.jpg">
+                    <div class="overlay">
+                        <h3>Comunicación</h3>
+                        <p>Comprometidos con tu éxito.</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="IMG/Estrategicos.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Estrátegicos</h3>
+                        <p>Estrategias inteligentes, resultados extraordinarios. </p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="IMG/entendido.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Entendimiento</h3>
+                        <p>Entendemos, ejecutamos, superamos.</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="IMG/Calidad.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Calidad</h3>
+                        <p>Calidad que inspira confianza.</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="IMG/Focus.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Focus Advisers</h3>
+                        <p>"Eficiencia fiscal, crecimiento seguro."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="IMG/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Nicaragua 159, San Rafael Mza
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: 2384 - 4343443 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: cw@example.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+
+    <script src="APP.JS"></script>
+</body>
+</html>
